@@ -1,0 +1,58 @@
+2012-04-13 20:14:28 [INFO] Starting minecraft server version 1.2.5
+2012-04-13 20:14:28 [INFO] Loading properties
+2012-04-13 20:14:28 [WARNING] server.properties does not exist
+2012-04-13 20:14:28 [INFO] Generating new properties file
+2012-04-13 20:14:28 [INFO] Starting Minecraft server on *:25565
+2012-04-13 20:14:28 [INFO] This server is running CraftBukkit version git-Bukkit-1.2.5-R1.0-b2149jnks (MC: 1.2.5) (Implementing API version 1.2.5-R1.0)
+2012-04-13 20:14:28 [WARNING] Failed to load ban list: java.io.FileNotFoundException: banned-players.txt (No such file or directory)
+2012-04-13 20:14:28 [WARNING] Failed to load ip ban list: java.io.FileNotFoundException: banned-ips.txt (No such file or directory)
+2012-04-13 20:14:28 [WARNING] Failed to load operators list: java.io.FileNotFoundException: ops.txt (No such file or directory)
+2012-04-13 20:14:28 [WARNING] Failed to load white-list: java.io.FileNotFoundException: white-list.txt (No such file or directory)
+2012-04-13 20:14:28 [INFO] Preparing level "world"
+2012-04-13 20:14:28 [INFO] Default game type: 0
+2012-04-13 20:14:28 [INFO] Preparing start region for level 0 (Seed: -941689446653565029)
+2012-04-13 20:14:29 [INFO] Preparing spawn area: 12%
+2012-04-13 20:14:30 [INFO] Preparing spawn area: 32%
+2012-04-13 20:14:31 [INFO] Preparing spawn area: 52%
+2012-04-13 20:14:32 [INFO] Preparing spawn area: 73%
+2012-04-13 20:14:33 [INFO] Preparing spawn area: 93%
+2012-04-13 20:14:34 [INFO] Preparing start region for level 1 (Seed: -941689446653565029)
+2012-04-13 20:14:34 [INFO] Preparing spawn area: 12%
+2012-04-13 20:14:35 [INFO] Preparing spawn area: 32%
+2012-04-13 20:14:36 [INFO] Preparing spawn area: 57%
+2012-04-13 20:14:37 [INFO] Preparing spawn area: 77%
+2012-04-13 20:14:38 [INFO] Preparing start region for level 2 (Seed: -941689446653565029)
+2012-04-13 20:14:38 [INFO] Preparing spawn area: 0%
+2012-04-13 20:14:40 [INFO] Preparing spawn area: 57%
+2012-04-13 20:14:40 [INFO] Done (12.192s)! For help, type "help" or "?"
+2012-04-13 20:15:25 [INFO] 182 recipes
+2012-04-13 20:15:25 [SEVERE] Could not load 'plugins/Leaderboard_Dev_0.0.1.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.ClassNotFoundException: Leaderboard.Leaderboard
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:150)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:207)
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:541)
+	at org.bukkit.Bukkit.reload(Bukkit.java:182)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:22)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:166)
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:473)
+	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:469)
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:596)
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:565)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:449)
+	at net.minecraft.server.ThreadServerApplication.run(SourceFile:492)
+Caused by: java.lang.ClassNotFoundException: Leaderboard.Leaderboard
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:41)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:29)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:139)
+	... 13 more
+2012-04-13 20:15:25 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2012-04-13 20:15:25 [INFO] [32mReload complete.[0m
