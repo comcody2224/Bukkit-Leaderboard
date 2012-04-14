@@ -56,3 +56,8 @@ Caused by: java.lang.ClassNotFoundException: Leaderboard.Leaderboard
 	... 13 more
 2012-04-13 20:15:25 [INFO] Server permissions file permissions.yml is empty, ignoring it
 2012-04-13 20:15:25 [INFO] [32mReload complete.[0m
+2012-04-13 20:28:27 [INFO] CONSOLE: Stopping the server..[0m
+2012-04-13 20:28:27 [INFO] Stopping server
+2012-04-13 20:28:27 [INFO] Saving chunks
+2012-04-13 20:28:27 [INFO] Stopping server
+2012-04-13 20:28:27 [INFO] Saving chunks
