@@ -1,9 +1,0 @@
-name: Leaderboard
-main: Leaderboard.Leaderboard
-version: 1.0
-commands:
-   leaderboard:
-      description: This is a demo command.
-      usage: /<command> [player]
-      permission: leaderboard.test
-      permission-message: You don't have <permission>
