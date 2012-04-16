@@ -1,0 +1,12 @@
+name: Leaderboard
+main: net.beastnode.forge.leaderboard
+version: 0.2
+
+
+
+commands:
+   lead:
+      description: Shows player statistics.
+      usage: /<command> [player]
+      permission: leaderboard.stats
+      permission-message: You don't have <permission>
